@@ -20,7 +20,7 @@ The application allows users to create, organize, search, summarize, and share n
 ## Frontend
 
 ```bash
-https://peblo-ai-notes-workspace-5pjbdssbh.vercel.app/login
+https://peblo-ai-notes-workspace-owbmdwg21.vercel.app/login
 ```
 
 ## Backend API
