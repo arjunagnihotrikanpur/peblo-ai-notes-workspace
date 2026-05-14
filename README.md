@@ -20,13 +20,13 @@ The application allows users to create, organize, search, summarize, and share n
 ## Frontend
 
 ```bash
-ADD_FRONTEND_DEPLOYMENT_URL
+https://peblo-ai-notes-workspace-5pjbdssbh.vercel.app/login
 ```
 
 ## Backend API
 
 ```bash
-ADD_BACKEND_DEPLOYMENT_URL
+https://peblo-ai-notes-workspace.onrender.com/api
 ```
 
 ---
@@ -188,7 +188,7 @@ Detailed frontend documentation:
 # 1. Clone Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/arjunagnihotrikanpur/peblo-ai-notes-workspace
 ```
 
 ---
@@ -345,9 +345,7 @@ Frontend architecture and component documentation available in:
 
 # Screenshots
 
-Add screenshots here before submission.
-
-Suggested screenshots:
+Screenshots Provided in the Repo:
 
 - Login page
 - Dashboard
@@ -360,7 +358,7 @@ Suggested screenshots:
 
 # Demo Video
 
-Add demo video link here before submission.
+demo video link
 
 Recommended flow:
 
