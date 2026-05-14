@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #111111;
+    color: #e5e7eb;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2a2a2a;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3a3a3a;
+  }
+
+  ::selection {
+    background: #6366f140;
+    color: #e5e7eb;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-hover text-white font-medium px-4 py-2 rounded-lg transition-all duration-150 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent hover:bg-panel text-ink-muted hover:text-ink font-medium px-4 py-2 rounded-lg transition-all duration-150;
+  }
+
+  .btn-danger {
+    @apply bg-transparent hover:bg-danger/10 text-danger font-medium px-4 py-2 rounded-lg transition-all duration-150;
+  }
+
+  .input-field {
+    @apply w-full bg-panel border border-panel-border text-ink placeholder-ink-subtle rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-all duration-150;
+  }
+
+  .card {
+    @apply bg-panel border border-panel-border rounded-xl p-5;
+  }
+
+  .tag-pill {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary-light border border-primary/20;
+  }
+
+  .sidebar-link {
+    @apply flex items-center gap-3 px-3 py-2 rounded-lg text-sm text-ink-muted hover:text-ink hover:bg-panel-hover transition-all duration-150 cursor-pointer;
+  }
+
+  .sidebar-link-active {
+    @apply flex items-center gap-3 px-3 py-2 rounded-lg text-sm text-ink bg-primary/10 border border-primary/20 font-medium;
+  }
+}
