@@ -22,7 +22,7 @@ https://drive.google.com/file/d/1Y-1OHubTkWr8PKRuzrw5bYNYGjaEUufu/view?usp=shari
 ## Frontend
 
 ```bash
-https://peblo-ai-notes-workspace-5pjbdssbh.vercel.app/login
+https://peblo-ai-notes-workspace-owbmdwg21.vercel.app/login
 ```
 
 ## Backend API
