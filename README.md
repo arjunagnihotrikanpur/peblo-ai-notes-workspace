@@ -17,6 +17,8 @@ The application allows users to create, organize, search, summarize, and share n
 
 # Live Demo
 
+https://drive.google.com/file/d/1Y-1OHubTkWr8PKRuzrw5bYNYGjaEUufu/view?usp=sharing
+
 ## Frontend
 
 ```bash
